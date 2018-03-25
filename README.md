@@ -10,6 +10,7 @@ There is an association between age dependency and alcohol consumption.
 As people age, the probability of getting sober is more.
 
 
+How to collect the Data:
 
 [American FactFinder](http://factfinder.census.gov/faces/nav/jsf/pages/searchresults.xhtml) tool.
  When searching through the data, be sure to select these options in the left sidebar:
@@ -30,9 +31,6 @@ Filter the `Question` data on the site before downloading a specified .csv, or s
 To make sure you have a solid trend, you need to test for correlation with Excel's `=CORREL()` function. 
 Aim for a value either less 
 than -0.5 or more than 0.5—these values would indicate a moderate correlation and a story that might be 
-worth pursuing
- (shoot for -0.75 or 0.75 if you're feeling super diligent).
+worth pursuing (shoot for -0.75 or 0.75 if you're feeling super diligent).
 
-* If you don't find a value that matches, try at least four other demographic-risk combinations—if you can't find one that hits 
--0.5 or .5, just go with the most striking mix.
 
